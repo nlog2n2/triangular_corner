@@ -1,0 +1,10 @@
+[Unit]
+Description=Execute Start Up Shell Script
+After=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/bash /home/ec2-user/operation/start.sh
+
+[Install]
+WantedBy=multi-user.target

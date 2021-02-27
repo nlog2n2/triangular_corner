@@ -1,0 +1,1 @@
+echo "hoge" > /home/ec2-user/hoge.txt
