@@ -1,0 +1,5 @@
+interface GigabitEthernet0/1
+ switchport access vlan 10
+ switchport mode trunk
+ switchport trunk allowed vlan add 20,30
+!
